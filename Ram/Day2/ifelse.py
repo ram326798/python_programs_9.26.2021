@@ -1,7 +1,7 @@
 age=int(input("Enter age "))
 if(age>0):
     if(age<18):
-        print("Given person is minor")
+        print("You are minor")
     elif(age>=18 and age<25):
         print("Given person is Young age")
     elif(age>=25 and age<60):
