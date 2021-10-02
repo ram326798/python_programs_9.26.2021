@@ -9,3 +9,11 @@
 3.Write a program to give dynamic string.
 Note: 1.String should be **"{persons} went to {Movie_name} at {theatre_name}"**
   
+4.write a program to find **"Rajni" in** a list.
+
+5.Write a program to replace **["Hello","world",45,503.24,True]** to **["Thank you"]**
+
+6.write a program to create new list with existing value.
+Note:from **li=["apple","bird",True,33]** to **new_li=["bird",True,33]**
+
+7.write a program to check whether given type is list or not. **If it is list print("given type is list") else print("given output is not list")**
