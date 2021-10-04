@@ -36,21 +36,91 @@ l[2]="krish"
 print("new list :",l)
 """
 #inserting elements at specified range by replacing existing value in list
-"""
+
 #how to replace elements in a list
+"""
 print("List :",l)
 print("List :",len(l))
-l[1:4]=[False,10000,True,"died"]
+l[1:4]=[]
 print("new List :",l)
 print("List :",len(l))
 print("List :",type(l[-2]))
-
 """
+
 #inserting elements at specified index without replacing any value in list
 """
 print("list :",l)
 print("length of list :",len(l))
 l.insert(2,"Hari")
 print("new list : ",l)
+print("new list length: ",len(l))
+"""
+# adding elements using append method
+
+"""
+print("list :",l)
+print("length of list :",len(l))
+l.append("Hari")
+print("new list : ",l)
+print("new list length: ",len(l))
+"""
+#combining two lists using extend method
+"""
+print("list l:",l)
+print("length of list :",len(l))
+l1=["hello","extends","insert","append"]
+print("new list l: ",l1)
+print("new list length: ",len(l1))
+# l.extend(l1)
+l=l+l1
+print("new list :",l)
+print("new list length:",len(l))
+"""
+#removing element from a list using remove() method w.r.t values
+"""
+print("list l:",l)
+print("length of list :",len(l))
+l.remove(10) #remove method works with value if value is there it will remove else throws error
+print("new list l: ",l)
+print("new list length: ",len(l))
+"""
+
+#removing element from a list using remove() method w.r.t index position
+#opposite to append if pop is empty
+"""
+print("list l:",l)
+print("length of list :",len(l))
+l.pop(4) #remove method works with/without index if index is there it will remove else remove last value
+l.pop()# removes last element in a list
+print("new list l: ",l)
+print("new list length: ",len(l))
+"""
+
+#Removing element using del keyword
+"""
+print("list l:",l)
+print("length of list :",len(l))
+del l[2] #remove method works with/without index if index is there it will remove else remove last value
+del l #deletes entire list
+print("new list l: ",l)
+print("new list length: ",len(l))
+"""
+
+#clearing list using clear method
+"""
+print("list l:",l)
+print("length of list :",len(l))
+l.clear()
+print("new list l: ",l)
+print("new list length: ",len(l))
+"""
+"""
+print("list l:",l)
+print("length of list :",len(l))
+for i in range(3,len(l)):
+    print("i value",i)
+    # print(l.pop(i))
+    l.pop(3)
+print("new list l: ",l)
 print("new list length: ",len(l))
 """
