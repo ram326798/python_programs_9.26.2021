@@ -1,9 +1,12 @@
 # python_programs_9.26.2021
+
+**Assignment!**
 1.Write a program to find credited amount,balance using **if else and operators.**
   Note:variables:**amount,balance,credited_amount**,
   Formula: **credited_amount=amount**,**balance+=credited_amount**,
   **amount** should be greater than zero 
-                  
+
+**Assignment2**                
 2.Write a program to find given number is greater than or less than or equal to 100.
 
 3.Write a program to give dynamic string.
