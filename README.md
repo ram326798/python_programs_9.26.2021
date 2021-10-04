@@ -9,7 +9,7 @@
 3.Write a program to give dynamic string.
 Note: 1.String should be **"{persons} went to {Movie_name} at {theatre_name}"**
   
-4.write a program to find **"Rajni" in** a list.
+4.write a program to find **"Rajni" using in** a list.
 
 5.Write a program to replace **["Hello","world",45,503.24,True]** to **["Thank you"]**
 
