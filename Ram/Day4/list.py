@@ -85,8 +85,8 @@ print("new list l: ",l)
 print("new list length: ",len(l))
 """
 
-#removing element from a list using remove() method w.r.t index position
-#opposite to append if pop is empty
+#removing element from a list using pop() method w.r.t index position
+
 """
 print("list l:",l)
 print("length of list :",len(l))
