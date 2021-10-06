@@ -1,4 +1,5 @@
 l = ["hi","pavan","kumar","your age is",23]
+"""
 print(len(l))
 print(l)
 print("your name is :",l[1])
@@ -17,7 +18,7 @@ if name in l:
     print(f"{name} is in the list ")
 else:
     print(f"{name} name is not found")
-"""
+
 l[0]= "loyality"
 print(l)    
 print(type(l[2]))
