@@ -20,3 +20,9 @@ Note: 1.String should be **"{persons} went to {Movie_name} at {theatre_name}"**
 Note:from **li=["apple","bird",True,33]** to **new_li=["bird",True,33]**
 
 7.write a program to check whether given type is list or not. **If it is list print("given type is list") else print("given output is not list")**
+
+8.create a dynamic list using **for loop and append method**
+
+9.Write a program to find whether **apple** is there or not using list comprehension.
+note:l=["sqaure","triangle","apple"]
+
