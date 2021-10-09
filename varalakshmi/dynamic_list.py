@@ -11,7 +11,7 @@ for i in l:
 """
 l=[]
 for i in range(5):
-    l.append(input("enter a value :"))
+    l.append(input("enter value :"))
 print("List l :",l)
 print("type of List l :",type(l))
 print("length of List l :",len(l))
