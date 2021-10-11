@@ -60,11 +60,12 @@ print("Dictionary after clear :",d)
 del d
 print("Dictionary after deleting :",d)
 """
-#Binding two different lists into dictionary
-# l1=['Hero','age']
-# l2=['Arjun',20]
-# d=dict(l1,l2)
-# print("dictionary :",d)
+# Binding two different lists into dictionary
+l1=['Hero','age','colour']
+l2=['Arjun',20,'red']
+z=zip(l1,l2)
+d=dict(z)
+print("dictionary :",d)
 
 #For loop for items method
 """
@@ -99,6 +100,7 @@ print("printing Ferrari engine :",d["Ferrari"]['Engine'])
 print("type of Ferrari engine :",type(d["Ferrari"]['Engine']))
 """
 #Creating new dictionary with existing dictionaries
+"""
 car={"Benz":{"Engine":"a1","cost":3000000,"colour":"blue"},"Ferrari":{"Engine":"a2","cost":5000000,"colour":"Green"}}
 Animal={"Girafee":{"length":16,"colour":"orange"},"Lion":{"Food_habits":"Meat","lives_in":"forest"}}
 world={
@@ -108,3 +110,4 @@ world={
 print("World :",world)
 print("cars :",world['car'])
 print("gathering ferrari values from cars :",world['car']['Ferrari'])
+"""
