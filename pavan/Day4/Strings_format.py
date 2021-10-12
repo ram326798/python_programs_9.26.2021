@@ -2,8 +2,8 @@
 b = int(input("Enter a Ticket price : "))
 c = input("Enter a MovieLand name : ")
 text =  " Movie name is {movie} and movie Ticket price  is {ticket} at MovieLand is claer{land} "
-print(text.format(movie=a,ticket=b,land=c))"""
-
+print(text.format(movie=a,ticket=b,land=c))
+"""
 """
 num = int(input("Enter a digit : "))
 qun = int(input("Enter a Quantity: "))
