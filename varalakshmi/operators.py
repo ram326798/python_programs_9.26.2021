@@ -1,5 +1,5 @@
 #arthimetic operators
-"""
+
 a=int(input("enter a value:"))
 b=int(input("enter b value:"))
 if b!=0:
@@ -7,10 +7,10 @@ if b!=0:
     print("subtraction of a & b:","float value",float(a-b), "and int value" ,int(a-b))
     print("multiplication of a & b:","float value",float(a*b), "and int value" ,int(a*b))
     print("exponential of a & b:","float value",float(a**b), "and int value" ,int(a**b))
-    print("division of a & b:","float value",float(a//b), "and int value" ,int(a//b))
-    print("floor division of a & b:","float value",float(a/b), "and int value" ,int(a/b))
+    print("division of a & b:","float value",(a//b), "and int value" ,int(a//b))
+    print("floor division of a & b:","float value",(a/b), "and int value" ,int(a/b))
     print("modulo of a & b:","float value",float(a%b), "and int value" ,int(a%b))
-"""
+
 #comparison operators
 """
 a=int(input("enter a value:"))
