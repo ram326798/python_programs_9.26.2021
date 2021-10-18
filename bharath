@@ -1,0 +1,29 @@
+'''number=int(input())#findout number
+if number > 100:
+    print("given number is > 100")
+elif number<100:
+    print("given number is  < 100")
+else:
+    print("given number is = 100")
+'''
+'''''
+person="ravi"
+movie="avenger"
+hall="imax"
+action="{} went to {} movie at {} hall"
+print(action.format(person,movie,hall))
+'''
+'''''
+lis=[1,2,"rajani",False,1.2]
+word="rajani"
+if word in lis:
+    print("given word in list ")
+else:
+    print("given word is not in list ")
+'''
+'''''
+word1=["hello","world",True,44.5]
+word="thank you"
+word1=word1.clear()
+word1=word
+print(word1
