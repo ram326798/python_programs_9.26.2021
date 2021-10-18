@@ -1,11 +1,13 @@
-"""
+
 class MyName:
     def __init__(self,firstname,lastname):
         self.firstname=firstname
         self.lastname=lastname
     def description(self,user_name="persons name"):
         return f"{user_name} is {self.lastname}  {self.firstname}"
-m=MyName(input("enter your name:")
+firstname=input("enter first name:")
+lastname=input("enter last name:")
+m=MyName(firstname,lastname)
 print(m.description())
 """
 class MyName:
@@ -17,3 +19,4 @@ class MyName:
         return f"{user_name} is {self.lastname}  {self.firstname} with age {self.age}"
 m=MyName("varalakshmi","ummadisetti",20)
 print(m.description())
+"""

@@ -1,5 +1,10 @@
-#static list
 
+
+
+
+
+#static list
+"""
 l=[True,"lakshmi","Bank","Text",10,"Credit"]
 print("List :",l)
 print("List length :",len(l))
@@ -9,9 +14,10 @@ for i in range (5):
     print("List length :",len(l))
     print("List index :",i)
     print("List Type:",type(l))
-
 """
+
 # create a dynamic list using for loop and append method
+"""
 l=[]
 for i in range(5):
     l.append(input("enter value :"))
