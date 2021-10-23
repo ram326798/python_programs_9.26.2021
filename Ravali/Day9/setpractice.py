@@ -28,11 +28,24 @@ print(s3)
 s4=s3.copy()
 print(s4)"""
 # discard,remove
-s1={5,6,5,"hyd","pune",89.0,True}
-s2={5,6,5,"hyd","pune",89.0,True,"delhi",78.9}
-s1.discard(9)#value is not thr also ,will ot throw error
-s2.remove(5)# throws error
-s2.pop()#will ot take any arguements
-print(s2)
+# s1={5,6,5,"hyd","pune",89.0,True}
+# s2={5,6,5,"hyd","pune",89.0,True,"delhi",78.9}
+# s1.discard(9)#value is not thr also ,will ot throw error
+# s2.remove(5)# throws error
+# s2.pop()#will ot take any arguements
+# print(s2)
 
+
+
+def checkigAagrams(a,c):
+    if sorted(a)==sorted(c):
+        #print("both are present")
+        return True
+    else:
+        False
+
+    s1="listen"
+    s2="silent"
+    if __name__== "main":
+        checkigAagrams(s1,s2)
 
