@@ -1,5 +1,5 @@
-a=input("enter a person")
-b=input("enter Movie_name")
-c=input("enter theatre_name")
-dyamicstr=f"**{a} went to {b} at {c}**"
-print(dyamicstr)
+from collections imort Counter
+a="1234567"
+for i in range(0,len(a),-2):
+    a1=Counter(i)
+    print(a1)
